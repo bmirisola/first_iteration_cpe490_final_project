@@ -1,3 +1,5 @@
 set terminal png
 set output "EWMA.png"
-plot "delay" using 1:2 with lp
+plot "alldata" using 2:3 with lp title "ewma", \
+'' using 2:1 with p title "rtt"
+

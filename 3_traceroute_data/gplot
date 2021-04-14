@@ -1,0 +1,6 @@
+set terminal png
+set output "Traceroute.png"
+set xlabel "delay (milliseconds)"
+set ylabel "probability"
+set title "Traceroute Delay"
+plot "cdf" using 2:1 with lp

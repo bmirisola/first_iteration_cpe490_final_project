@@ -11,7 +11,7 @@ BEGIN{
 	
 	}
 
-	else if(length($1) >=7){
+	else if(length($1) >=8){
 
 	}
 

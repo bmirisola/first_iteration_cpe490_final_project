@@ -11,6 +11,10 @@ BEGIN{
 	
 	}
 
+	else if(length($1) >=7){
+
+	}
+
 	else{
 		print $1 
 	}

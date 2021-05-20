@@ -1,8 +1,0 @@
-set terminal png
-set output "EWMA.png"
-set xlabel "seq #"
-set ylabel "delay (milliseconds)"
-set title "1/400 values"
-plot "alldata" using 2:3 with lp title "ewma", \
-'' using 2:1 with p title "rtt"
-

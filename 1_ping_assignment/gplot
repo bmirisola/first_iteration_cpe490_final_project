@@ -1,3 +1,0 @@
-set terminal png
-set output "CDF_Plot.png"
-plot "cdf" using 2:1 with lp
